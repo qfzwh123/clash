@@ -5,54 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇵🇱_PL_波兰_1', server: '194.15.196.66', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
-  - {name: 'null_null_2', server: '0316ro.fans8.xyz', port: 443, type: vmess, uuid: '5c70da5d-e641-3bf8-b7dc-5babd843ff3c', alterId: 2, cipher: auto, tls: true, network: 'ws' }
-  - { name: '🇺🇸_US_美国_3', server: 'us2.tcpbbr.net', port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b }
-  - {name: '🇺🇸_US_美国_4', server: '114.wowogg.cyou', port: 52214, type: vmess, uuid: '7b0e18c2-7c79-370b-833d-5b2191ea112a', alterId: 2, cipher: auto, tls: false, network: 'tcp' }
-  - {name: '🇹🇼_TW_台湾_5', server: 'twn.02.sola.plus', port: 11001, type: vmess, uuid: 'b282cfed-e0d6-30d4-8a9e-8fba6fba99bc', alterId: 0, cipher: auto, tls: false, network: 'tcp' }
-  - {name: '🇭🇰_HK_香港_6', server: '0320hk567.fans8.xyz', port: 443, type: vmess, uuid: '5c70da5d-e641-3bf8-b7dc-5babd843ff3c', alterId: 2, cipher: auto, tls: true, network: 'ws' }
-  - {name: '🇯🇵_JP_日本_7', server: 'jpn.03.sola.plus', port: 12345, type: vmess, uuid: 'b282cfed-e0d6-30d4-8a9e-8fba6fba99bc', alterId: 0, cipher: auto, tls: false, network: 'tcp' }
-  - {name: '🇯🇵_JP_日本_8', server: 'jpn.04.sola.plus', port: 12345, type: vmess, uuid: 'b282cfed-e0d6-30d4-8a9e-8fba6fba99bc', alterId: 0, cipher: auto, tls: false, network: 'tcp' }
-  - {name: '🇹🇼_TW_台湾_9', server: '0319tw123.fans8.xyz', port: 443, type: vmess, uuid: '5c70da5d-e641-3bf8-b7dc-5babd843ff3c', alterId: 2, cipher: auto, tls: true, network: 'ws' }
-  - { name: '🇺🇸_US_美国_10', server: 'us2.tcpbbr.net', port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d }
-  - {name: '🇭🇰_HK_香港_11', server: '134.wowogg.cyou', port: 52334, type: vmess, uuid: '7b0e18c2-7c79-370b-833d-5b2191ea112a', alterId: 2, cipher: auto, tls: false, network: 'tcp' }
-  - { name: '🇺🇸_US_美国_12', server: 'us2.tcpbbr.net', port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d }
-  - {name: '🇭🇰_HK_香港_13', server: 'hk.01.ddnss.vip', port: 12345, type: vmess, uuid: 'b282cfed-e0d6-30d4-8a9e-8fba6fba99bc', alterId: 0, cipher: auto, tls: false, network: 'tcp' }
-  - {name: '🇰🇷_KR_韩国_14', server: 'kr3.uuv2.co.uk', port: 2053, type: vmess, uuid: 'bef4871a-a3ed-4cca-831f-88382c4382fa', alterId: 1, cipher: auto, tls: true, network: 'ws' }
-  - {name: '🇺🇸_US_美国_15', server: '38.75.137.187', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
-  - {name: '🇺🇸_US_美国_16', server: '38.75.137.66', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
-  - {name: '🇰🇷_KR_韩国_17', server: '158.247.208.102', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
-  - {name: '🇺🇸_US_美国_18', server: '38.75.137.66', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
-  - {name: '🇺🇸_US_美国_19', server: '142.202.48.7', port: 2375,  type: ss, cipher: 'aes-256-gcm', password: 'faBAoD54k87UJG7'}
-  - {name: '🇺🇸_US_美国_20', server: '142.202.48.7', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
-  - {name: '🇺🇸_US_美国_21', server: '142.202.48.7', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
-  - {name: '🇺🇸_US_美国_22', server: '142.202.48.7', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
-  - {name: '🇺🇸_US_美国_23', server: '38.75.137.66', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm'}
-  - { name: '🇭🇰_HK_香港_24', server: 'hk3.qingyun123.xyz', port: 10050, type: trojan, password: 6f5896ec-605f-47a9-bfa9-ccb3f2b17e8c }
-  - {name: '🇰🇷_KR_韩国_25', server: '158.247.208.102', port: 8008,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
-  - {name: '🇨🇳_CN_中国_26', server: 'sxqxj.cn', port: 2164, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws' }
-  - {name: '🇨🇳_CN_中国_27', server: '117.28.242.156', port: 2164, type: vmess, uuid: 'aba50dd4-5484-3b05-b14a-4661caf862d5', alterId: 4, cipher: auto, tls: true, network: 'ws' }
-  - {name: '🇭🇰_HK_香港_28', server: '14.v2-ray.cyou', port: 15014, type: vmess, uuid: '047184b7-6da2-3d3f-ac27-6a1a8701daf8', alterId: 2, cipher: auto, tls: false, network: 'ws' }
-  - {name: '🇺🇸_US_美国_29', server: '38.75.137.187', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
-  - { name: '🇭🇰_HK_香港_30', server: 'azhk.relay.qchwnd.moe', port: 44604, type: trojan, password: b7a8698e-09f0-4e6e-a197-d27337a22171 }
-  - {name: '🇺🇸_US_美国_31', server: '38.75.137.66', port: 7306,  type: ss, cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
-  - { name: '🇺🇸_US_美国_32', server: 'usa.fanqiangvpn.com', port: 443, type: trojan, password: afc34a50-76f7-4fb1-9393-c5da1c1a54db }
-  - { name: '🇸🇬_SG_新加坡_33', server: '5.44.249.43', port: 3389, type: trojan, password: 6f0a9d0fa39d65fa }
-  - {name: '🇭🇰_HK_香港_34', server: '23.v2-ray.cyou', port: 15023, type: vmess, uuid: '047184b7-6da2-3d3f-ac27-6a1a8701daf8', alterId: 2, cipher: auto, tls: false, network: 'ws' }
-  - {name: '🇭🇰_HK_香港_35', server: 'us.rnmtq.gq', port: 63480, type: vmess, uuid: 'cb8ab285-fafc-45f6-87bc-97a7a2f27f9f', alterId: 0, cipher: auto, tls: false, network: 'ws' }
-  - {name: '🇺🇸_US_美国_36', server: '142.202.48.7', port: 8009,  type: ss, cipher: 'aes-256-gcm', password: 'XKFKl2rULjIp74'}
-  - {name: '🇺🇸_US_美国_37', server: '38.75.137.66', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
-  - {name: '🇺🇸_US_美国_38', server: '142.202.48.7', port: 8091,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27'}
-  - {name: '🇺🇸_US_美国_39', server: '142.202.48.7', port: 3389,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
-  - {name: '', server: 'VPNFolder@20.25.107.72', port: 500,  type: ss, cipher: 'aes-128-gcm', password: ''}
-  - {name: '🇹🇼_TW_台湾_41', server: 'popopo.store', port: 443, type: vmess, uuid: '8795da46-2362-4e1a-befa-8d3c37de4ca2', alterId: 0, cipher: auto, tls: true, network: 'ws' }
-  - {name: '', server: 'VPNFolder@20.203.137.25', port: 500,  type: ss, cipher: 'aes-128-gcm', password: ''}
-  - {name: '🇺🇸_US_美国_43', server: '142.202.48.7', port: 3306,  type: ss, cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
-  - {name: '🇰🇷_KR_韩国_44', server: '158.247.208.102', port: 8882,  type: ss, cipher: 'aes-256-gcm', password: 'kDWvXYZoTBcGkC4'}
-  - {name: '🇺🇸_US_美国_45', server: '142.202.48.7', port: 6679,  type: ss, cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
-  - {name: '🇺🇸_US_美国_46', server: '38.75.137.66', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm'}
-  - {name: '🇺🇸_US_美国_47', server: '209.94.56.152', port: 443, type: vmess, uuid: '3033e157-fdc3-47c0-ae32-fc4fe65fc64d', alterId: 0, cipher: auto, tls: true, network: 'ws' }
-proxy-groups: 
+  - {"name":"🇵🇱_PL_波兰_1","server":"194.15.196.66","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"null_null_2","server":"0316ro.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_3","server":"us2.tcpbbr.net","port":443,"type":"trojan","password":"283695dc-fcc8-11ea-8684-f23c913c8d2b"}
+  - {"name":"🇺🇸_US_美国_4","server":"114.wowogg.cyou","port":52214,"type":"vmess","uuid":"7b0e18c2-7c79-370b-833d-5b2191ea112a","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"🇹🇼_TW_台湾_5","server":"twn.02.sola.plus","port":11001,"type":"vmess","uuid":"b282cfed-e0d6-30d4-8a9e-8fba6fba99bc","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"🇭🇰_HK_香港_6","server":"0320hk567.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇯🇵_JP_日本_7","server":"jpn.03.sola.plus","port":12345,"type":"vmess","uuid":"b282cfed-e0d6-30d4-8a9e-8fba6fba99bc","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_8","server":"jpn.04.sola.plus","port":12345,"type":"vmess","uuid":"b282cfed-e0d6-30d4-8a9e-8fba6fba99bc","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"🇹🇼_TW_台湾_9","server":"0319tw123.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_10","server":"us2.tcpbbr.net","port":443,"type":"trojan","password":"2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d"}
+  - {"name":"🇭🇰_HK_香港_11","server":"134.wowogg.cyou","port":52334,"type":"vmess","uuid":"7b0e18c2-7c79-370b-833d-5b2191ea112a","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_12","server":"us2.tcpbbr.net","port":443,"type":"trojan","password":"5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d"}
+  - {"name":"🇭🇰_HK_香港_13","server":"hk.01.ddnss.vip","port":12345,"type":"vmess","uuid":"b282cfed-e0d6-30d4-8a9e-8fba6fba99bc","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"🇰🇷_KR_韩国_14","server":"kr3.uuv2.co.uk","port":2053,"type":"vmess","uuid":"bef4871a-a3ed-4cca-831f-88382c4382fa","alterId":1,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_15","server":"38.75.137.187","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_16","server":"38.75.137.66","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇰🇷_KR_韩国_17","server":"158.247.208.102","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_18","server":"38.75.137.66","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_19","server":"142.202.48.7","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_20","server":"142.202.48.7","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸_US_美国_21","server":"142.202.48.7","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_22","server":"142.202.48.7","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_23","server":"38.75.137.66","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇭🇰_HK_香港_24","server":"hk3.qingyun123.xyz","port":10050,"type":"trojan","password":"6f5896ec-605f-47a9-bfa9-ccb3f2b17e8c"}
+  - {"name":"🇰🇷_KR_韩国_25","server":"158.247.208.102","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇳_CN_中国_26","server":"sxqxj.cn","port":2164,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇨🇳_CN_中国_27","server":"117.28.242.156","port":2164,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇭🇰_HK_香港_28","server":"14.v2-ray.cyou","port":15014,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_29","server":"38.75.137.187","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇭🇰_HK_香港_30","server":"azhk.relay.qchwnd.moe","port":44604,"type":"trojan","password":"b7a8698e-09f0-4e6e-a197-d27337a22171"}
+  - {"name":"🇺🇸_US_美国_31","server":"38.75.137.66","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸_US_美国_32","server":"usa.fanqiangvpn.com","port":443,"type":"trojan","password":"afc34a50-76f7-4fb1-9393-c5da1c1a54db"}
+  - {"name":"🇸🇬_SG_新加坡_33","server":"5.44.249.43","port":3389,"type":"trojan","password":"6f0a9d0fa39d65fa"}
+  - {"name":"🇭🇰_HK_香港_34","server":"23.v2-ray.cyou","port":15023,"type":"vmess","uuid":"047184b7-6da2-3d3f-ac27-6a1a8701daf8","alterId":2,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇭🇰_HK_香港_35","server":"us.rnmtq.gq","port":63480,"type":"vmess","uuid":"cb8ab285-fafc-45f6-87bc-97a7a2f27f9f","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_36","server":"142.202.48.7","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸_US_美国_37","server":"38.75.137.66","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_38","server":"142.202.48.7","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇺🇸_US_美国_39","server":"142.202.48.7","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇹🇼_TW_台湾_40","server":"popopo.store","port":443,"type":"vmess","uuid":"8795da46-2362-4e1a-befa-8d3c37de4ca2","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_41","server":"142.202.48.7","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷_KR_韩国_42","server":"158.247.208.102","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸_US_美国_43","server":"142.202.48.7","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国_44","server":"38.75.137.66","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸_US_美国_45","server":"209.94.56.152","port":443,"type":"vmess","uuid":"3033e157-fdc3-47c0-ae32-fc4fe65fc64d","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
@@ -97,14 +95,12 @@ proxy-groups:
       - 🇺🇸_US_美国_37
       - 🇺🇸_US_美国_38
       - 🇺🇸_US_美国_39
-      - 
-      - 🇹🇼_TW_台湾_41
-      - 
+      - 🇹🇼_TW_台湾_40
+      - 🇺🇸_US_美国_41
+      - 🇰🇷_KR_韩国_42
       - 🇺🇸_US_美国_43
-      - 🇰🇷_KR_韩国_44
+      - 🇺🇸_US_美国_44
       - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -150,14 +146,12 @@ proxy-groups:
       - 🇺🇸_US_美国_37
       - 🇺🇸_US_美国_38
       - 🇺🇸_US_美国_39
-      - 
-      - 🇹🇼_TW_台湾_41
-      - 
+      - 🇹🇼_TW_台湾_40
+      - 🇺🇸_US_美国_41
+      - 🇰🇷_KR_韩国_42
       - 🇺🇸_US_美国_43
-      - 🇰🇷_KR_韩国_44
+      - 🇺🇸_US_美国_44
       - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -203,14 +197,12 @@ proxy-groups:
       - 🇺🇸_US_美国_37
       - 🇺🇸_US_美国_38
       - 🇺🇸_US_美国_39
-      - 
-      - 🇹🇼_TW_台湾_41
-      - 
+      - 🇹🇼_TW_台湾_40
+      - 🇺🇸_US_美国_41
+      - 🇰🇷_KR_韩国_42
       - 🇺🇸_US_美国_43
-      - 🇰🇷_KR_韩国_44
+      - 🇺🇸_US_美国_44
       - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -256,14 +248,12 @@ proxy-groups:
       - 🇺🇸_US_美国_37
       - 🇺🇸_US_美国_38
       - 🇺🇸_US_美国_39
-      - 
-      - 🇹🇼_TW_台湾_41
-      - 
+      - 🇹🇼_TW_台湾_40
+      - 🇺🇸_US_美国_41
+      - 🇰🇷_KR_韩国_42
       - 🇺🇸_US_美国_43
-      - 🇰🇷_KR_韩国_44
+      - 🇺🇸_US_美国_44
       - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
   - name: 📲 电报信息
     type: select
     proxies:
@@ -308,14 +298,12 @@ proxy-groups:
       - 🇺🇸_US_美国_37
       - 🇺🇸_US_美国_38
       - 🇺🇸_US_美国_39
-      - 
-      - 🇹🇼_TW_台湾_41
-      - 
+      - 🇹🇼_TW_台湾_40
+      - 🇺🇸_US_美国_41
+      - 🇰🇷_KR_韩国_42
       - 🇺🇸_US_美国_43
-      - 🇰🇷_KR_韩国_44
+      - 🇺🇸_US_美国_44
       - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -360,14 +348,12 @@ proxy-groups:
       - 🇺🇸_US_美国_37
       - 🇺🇸_US_美国_38
       - 🇺🇸_US_美国_39
-      - 
-      - 🇹🇼_TW_台湾_41
-      - 
+      - 🇹🇼_TW_台湾_40
+      - 🇺🇸_US_美国_41
+      - 🇰🇷_KR_韩国_42
       - 🇺🇸_US_美国_43
-      - 🇰🇷_KR_韩国_44
+      - 🇺🇸_US_美国_44
       - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -412,14 +398,12 @@ proxy-groups:
       - 🇺🇸_US_美国_37
       - 🇺🇸_US_美国_38
       - 🇺🇸_US_美国_39
-      - 
-      - 🇹🇼_TW_台湾_41
-      - 
+      - 🇹🇼_TW_台湾_40
+      - 🇺🇸_US_美国_41
+      - 🇰🇷_KR_韩国_42
       - 🇺🇸_US_美国_43
-      - 🇰🇷_KR_韩国_44
+      - 🇺🇸_US_美国_44
       - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -486,14 +470,12 @@ proxy-groups:
       - 🇺🇸_US_美国_37
       - 🇺🇸_US_美国_38
       - 🇺🇸_US_美国_39
-      - 
-      - 🇹🇼_TW_台湾_41
-      - 
+      - 🇹🇼_TW_台湾_40
+      - 🇺🇸_US_美国_41
+      - 🇰🇷_KR_韩国_42
       - 🇺🇸_US_美国_43
-      - 🇰🇷_KR_韩国_44
+      - 🇺🇸_US_美国_44
       - 🇺🇸_US_美国_45
-      - 🇺🇸_US_美国_46
-      - 🇺🇸_US_美国_47
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -10092,7 +10074,8 @@ rules:
   - DOMAIN-SUFFIX,kymirasite.pro,🆎 AdBlock
   - DOMAIN-SUFFIX,kyoufortvl.biz,🆎 AdBlock
   - DOMAIN-SUFFIX,kythodoby.pro,🆎 AdBlock
-  - DOMAIN-SUFFIX,kz2oq0xm6ie7gn5dkswlpv6mfgci8yoe3xlqp12gjotp5fdjxs5ckztb8rzn.codes,🆎 AdBlock
+  - DOMAIN-SUFFIX,kz2oq0xm6ie7gn5dkswlpv6mfgci8yoe3xlqp12gjotp5fdjxs5ckztb8rzn.codes,🆎
+    AdBlock
   - DOMAIN-SUFFIX,kzfwvqylo.com,🆎 AdBlock
   - DOMAIN-SUFFIX,kzvhgpqvmle.com,🆎 AdBlock
   - DOMAIN-SUFFIX,l2ksixujfcg5.com,🆎 AdBlock
@@ -13748,7 +13731,8 @@ rules:
   - DOMAIN-SUFFIX,regrcurie.com,🆎 AdBlock
   - DOMAIN-SUFFIX,regrisaillerais.site,🆎 AdBlock
   - DOMAIN-SUFFIX,regulationprivilegescan.top,🆎 AdBlock
-  - DOMAIN-SUFFIX,rei9jc56oyqux0rcpcquqmm7jc5freirpsquqkope3n3axrjacg8ipolxvbm.codes,🆎 AdBlock
+  - DOMAIN-SUFFIX,rei9jc56oyqux0rcpcquqmm7jc5freirpsquqkope3n3axrjacg8ipolxvbm.codes,🆎
+    AdBlock
   - DOMAIN-SUFFIX,reialsoha.biz,🆎 AdBlock
   - DOMAIN-SUFFIX,reichelcormier.bid,🆎 AdBlock
   - DOMAIN-SUFFIX,reidaitqutnss.xyz,🆎 AdBlock
@@ -28330,8 +28314,10 @@ rules:
   - DOMAIN-SUFFIX,ip2c.landscape.co.jp,🆎 AdBlock
   - DOMAIN-SUFFIX,ipapi.tmbi.com,🆎 AdBlock
   - DOMAIN-SUFFIX,ipcheck.blogsys.jp,🆎 AdBlock
-  - DOMAIN-SUFFIX,ipv4-c006-mid001-telmex-isp.1.oca.nflxvideo.net.iberostar.com,🆎 AdBlock
-  - DOMAIN-SUFFIX,ipv4-c008-mid001-telmex-isp.1.oca.nflxvideo.net.iberostar.com,🆎 AdBlock
+  - DOMAIN-SUFFIX,ipv4-c006-mid001-telmex-isp.1.oca.nflxvideo.net.iberostar.com,🆎
+    AdBlock
+  - DOMAIN-SUFFIX,ipv4-c008-mid001-telmex-isp.1.oca.nflxvideo.net.iberostar.com,🆎
+    AdBlock
   - DOMAIN-SUFFIX,iq.sixaxisllc.com,🆎 AdBlock
   - DOMAIN-SUFFIX,iqdcaz.santehnika-online.ru,🆎 AdBlock
   - DOMAIN-SUFFIX,iqyioj.harryanddavid.com,🆎 AdBlock
@@ -30942,7 +30928,8 @@ rules:
   - DOMAIN-SUFFIX,pixel.archive.ph,🆎 AdBlock
   - DOMAIN-SUFFIX,pixel.archive.vn,🆎 AdBlock
   - DOMAIN-SUFFIX,pixel.archivecaslytosk.onion,🆎 AdBlock
-  - DOMAIN-SUFFIX,pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,🆎 AdBlock
+  - DOMAIN-SUFFIX,pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,🆎
+    AdBlock
   - DOMAIN-SUFFIX,pixel.augsburger-allgemeine.de,🆎 AdBlock
   - DOMAIN-SUFFIX,pixel.blivenyc.com,🆎 AdBlock
   - DOMAIN-SUFFIX,pixel.cdnwidget.com,🆎 AdBlock
@@ -36679,17 +36666,13 @@ rules:
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
-#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
-#   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
-#   - USER-AGENT,InstantVideo.US*,🌍 国外媒体
-#   - USER-AGENT,Prime%20Video*,🌍 国外媒体
   - DOMAIN, atv-ps.amazon.com,🌍 国外媒体
   - DOMAIN, fls-na.amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX, media-amazon.com,🌍 国外媒体
@@ -36699,13 +36682,10 @@ rules:
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,llnwd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,primevideo.com,🌍 国外媒体
-#   - USER-AGENT,AppleNews*,🌍 国外媒体
-#   - USER-AGENT,com.apple.news*,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
-#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
@@ -36720,13 +36700,11 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
-#   - USER-AGENT,Anime*,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,hinet.net,🌍 国外媒体
-#   - USER-AGENT,DAZN*,🌍 国外媒体
   - DOMAIN-KEYWORD,livedazn,🌍 国外媒体
   - DOMAIN-KEYWORD,vod2dazn,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
@@ -36765,11 +36743,8 @@ rules:
   - DOMAIN-SUFFIX,vjs.zencdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🌍 国外媒体
   - DOMAIN-SUFFIX,yahoo.co.jp,🌍 国外媒体
-#   - USER-AGENT,Deezer*,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
-#   - USER-AGENT,Disney*,🌍 国外媒体
-#   - USER-AGENT,Disney+*,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
   - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
   - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -36790,19 +36765,14 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
-#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,content.jwplatform.com,🌍 国外媒体
   - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
   - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
-#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#   - USER-AGENT,HBO%20GO%20PROD%20HKG*,🌍 国外媒体
-#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
-#   - USER-AGENT,HBOMAX*,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -36821,7 +36791,6 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
   - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -36840,7 +36809,6 @@ rules:
   - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
-#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
@@ -36856,12 +36824,9 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
-#   - USER-AGENT,ITV_Player*,🌍 国外媒体
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
-#   - USER-AGENT,JOOX*,🌍 国外媒体
-#   - USER-AGENT,WeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -36877,29 +36842,22 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
-#   - USER-AGENT,KKTV*,🌍 国外媒体
-#   - USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
   - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
-#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
-#   - USER-AGENT,LINE*,🌍 国外媒体
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
-#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
-#   - USER-AGENT,mytv*,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-#   - USER-AGENT,Argo*,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
   - DOMAIN,netflix.com.edgesuite.net,🌍 国外媒体
@@ -36941,24 +36899,19 @@ rules:
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
-#   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-#   - USER-AGENT,PBS*,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
-#   - USER-AGENT,Pandora*,🌍 国外媒体
   - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
   - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
-#   - USER-AGENT,SoundCloud*,🌍 国外媒体
   - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-#   - USER-AGENT,Spotify*,🌍 国外媒体
   - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
@@ -36967,14 +36920,11 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
-#   - USER-AGENT,TIDAL*,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
-#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-#   - USER-AGENT,TikTok*,🌍 国外媒体
   - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
@@ -36990,8 +36940,6 @@ rules:
   - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-#   - USER-AGENT,Viu*,🌍 国外媒体
-#   - USER-AGENT,ViuTV*,🌍 国外媒体
   - DOMAIN,api.viu.now.com,🌍 国外媒体
   - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
   - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
@@ -37007,9 +36955,6 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
-#   - USER-AGENT,*youtube*,🌍 国外媒体
-#   - USER-AGENT,YouTube*,🌍 国外媒体
-#   - USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
   - DOMAIN-KEYWORD,youtube,🌍 国外媒体
   - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
@@ -37018,10 +36963,6 @@ rules:
   - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
   - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
-#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
-#   - USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
-#   - USER-AGENT,YouTubeMusic*,🌍 国外媒体
-#   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
